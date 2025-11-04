@@ -14,8 +14,4 @@ contract HelloWorld {
         return message;
     }
 
-    // Public function to update the message
-    function setMessage(string memory _newMessage) public {
-        message = _newMessage;
-    }
 }
